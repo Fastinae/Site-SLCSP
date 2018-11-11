@@ -187,16 +187,20 @@ img.pull-left {
     margin-top: 10em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-items: center;
     align-items: center;
+}
+
+.card{
+	margin-top: 2em;
 }
 
 @media screen and (max-width: 640px) {
     .articles {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         justify-items: center;
     }
 }
@@ -205,7 +209,7 @@ img.pull-left {
     .articles {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         justify-items: center;
     }
   }
